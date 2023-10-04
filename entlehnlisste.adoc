@@ -1,0 +1,36 @@
+# Entlehnliste
+
+Die Entlehnliste wird gedruckt und hat folgendes Aussehen:
+
+[cols="1,1,1,1,1,1,1,1,1,1,1", frame="all", stripes="odd"]
+|===
+|Gerät (Nr.)
+|Zubehör (...)
+|Entlehner*in Klasse
+|Entlehn Datum
+|Unterschrift Entlehner*in
+|Paraphe Lehrkraft
+|Rückgabe geplant
+|Rückgabe tatsächlich
+|Unterschrift Entlehner*in
+|Paraphe Lehrkraft
+|Anmerkung
+
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+|===
