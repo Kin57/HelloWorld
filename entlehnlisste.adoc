@@ -2,8 +2,6 @@
 
 Die Entlehnliste wird gedruckt und hat folgendes Aussehen:
 
-:table-style: width=100%, background-color: gray;
-
 [cols="1,1,1,1,1,1,1,1,1,1,1", frame="all", stripes="odd", options="header"]
 |===
 |Gerät (Nr.)
