@@ -2,19 +2,19 @@
 
 Die Entlehnliste wird gedruckt und hat folgendes Aussehen:
 
-[cols="1,1,1,1,1,1,1,1,1,1,1", frame="all", stripes="odd"]
+[cols="1,1,1,1,1,1,1,1,1,1,1", frame="all", stripes="odd", options="header"]
 |===
-|*Gerät (Nr.)*
-|*Zubehör (...)*
-|*Entlehner*in Klasse*
-|*Entlehn Datum*
-|*Unterschrift Entlehner*in*
-|*Paraphe Lehrkraft*
-|*Rückgabe geplant*
-|*Rückgabe tatsächlich*
-|*Unterschrift Entlehner*in*
-|*Paraphe Lehrkraft*
-|*Anmerkung*
+|Gerät (Nr.)
+|Zubehör (...)
+|Entlehner*in Klasse
+|Entlehn Datum
+|Unterschrift Entlehner*in
+|Paraphe Lehrkraft
+|Rückgabe geplant
+|Rückgabe tatsächlich
+|Unterschrift Entlehner*in
+|Paraphe Lehrkraft
+|Anmerkung
 
 | | | | | | | | | | |
 | | | | | | | | | | |
