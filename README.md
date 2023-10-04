@@ -1,3 +1,5 @@
 # HelloWorld
-Hello World!
-Hallo
+This Repo includes all files necessary for the use of the "Entlehnliste".
+This includes:
+	entlehnliste.adoc
+	
