@@ -34,3 +34,7 @@ Die Entlehnliste wird gedruckt und hat folgendes Aussehen:
 | | | | | | | | | | |
 | | | | | | | | | | |
 |===
+
+- Überschriftenzeile und "Paraphe Lehrkraft"'s werden dunkel grau eingefärbt
+- dickere Trennlinien zwischen Überschriften und den Eintragungsspalten
+- jeweils dickere Trennlinie rechts von den "Paraphe Lehrkraft" Spalten
