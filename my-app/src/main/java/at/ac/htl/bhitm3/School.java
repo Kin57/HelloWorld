@@ -6,6 +6,16 @@ import java.util.List;
 public class School {
     private LinkedList<SchoolClass> schoolClasses;
 
+    public LinkedList<Teacher> getTeachers() {
+        return teachers;
+    }
+
+    public void setTeachers(LinkedList<Teacher> teachers) {
+        this.teachers = teachers;
+    }
+
+    private LinkedList<Teacher> teachers;
+
     public School() {
         this.schoolClasses = new LinkedList<SchoolClass>();
     }
