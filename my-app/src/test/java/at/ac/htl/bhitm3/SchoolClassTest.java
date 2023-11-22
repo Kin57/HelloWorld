@@ -20,4 +20,11 @@ public class SchoolClassTest {
     public void given_school_class_when_counting_students_then_result_is_zero() {
         assertEquals(0, schoolClass.getStudents().size());
     }
+
+    @Test
+    public void given_school_class_when_counting_teachers_then_result_is_zero() {
+        assertEquals(0, schoolClass.getTeachers().size());
+    }
+
+
 }
