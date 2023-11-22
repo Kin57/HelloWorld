@@ -7,11 +7,11 @@ public class SchoolClass {
 
     private List<Student> student_list = new LinkedList<>();
 
-    public List<Student> getStudent_list() {
+    public List<Student> getStudents() {
         return student_list;
     }
 
-    public void setStudent_list(List<Student> student_list) {
+    public void setStudents(List<Student> student_list) {
         this.student_list = student_list;
     }
 
