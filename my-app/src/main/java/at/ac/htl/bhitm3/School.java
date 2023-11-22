@@ -14,7 +14,7 @@ public class School {
         return new SchoolClass();
     }
 
-    public List getSchoolClasses() {
+    public List<SchoolClass> getSchoolClasses() {
         return this.schoolClasses;
     }
 
