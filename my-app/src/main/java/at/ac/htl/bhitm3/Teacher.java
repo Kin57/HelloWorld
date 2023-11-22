@@ -5,6 +5,7 @@ public class Teacher extends Person{
     public int matrNumb;
 
     public Teacher() {
+        super("Franz", "Mayer", "18.09.1977", "Linz 2");
         this.salary = 1;
         this.matrNumb = 1;
     }
