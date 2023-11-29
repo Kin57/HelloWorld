@@ -5,19 +5,20 @@ import java.util.List;
 
 public class School {
     private LinkedList<SchoolClass> schoolClasses;
+    private LinkedList<Teacher> teachers;
 
     public LinkedList<Teacher> getTeachers() {
         return teachers;
     }
 
-    public void setTeachers(LinkedList<Teacher> teachers) {
-        this.teachers = teachers;
+    public void setTeacher(Teacher teachers) {
+        this.teachers.add(teachers);
     }
 
-    private LinkedList<Teacher> teachers;
 
     public School() {
         this.schoolClasses = new LinkedList<SchoolClass>();
+        this.teachers = new LinkedList<Teacher>();
     }
 
     public static SchoolClass createSchoolClass() {

@@ -27,4 +27,11 @@ public class SchoolTest {
         assertEquals(1, school.getSchoolClasses().size());
         assertEquals(schoolClass, school.getSchoolClasses().get(0));
     }
+
+    public void given_new_school_when_adding_teacher_then_result_is_teachers() {
+        Teacher teacher = new Teacher();
+        school.setTeacher(teacher);
+        assertEquals(1, school.getTeachers().size());
+        assertEquals(teacher, school.getTeachers().get(0));
+    }
 }
