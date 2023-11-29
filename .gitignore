@@ -24,5 +24,5 @@ hs_err_pid*
 replay_pid*
 
 
-my-app/target/
-my-app/.idea/
+my-app/target
+my-app/.idea
