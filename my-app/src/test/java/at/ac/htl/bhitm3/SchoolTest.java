@@ -28,6 +28,7 @@ public class SchoolTest {
         assertEquals(schoolClass, school.getSchoolClasses().get(0));
     }
 
+    @Test
     public void given_new_school_when_adding_teacher_then_result_is_teachers() {
         Teacher teacher = new Teacher();
         school.setTeacher(teacher);

@@ -8,7 +8,7 @@ public class School {
     private LinkedList<Teacher> teachers;
 
     public LinkedList<Teacher> getTeachers() {
-        return teachers;
+        return this.teachers;
     }
 
     public void setTeacher(Teacher teachers) {
