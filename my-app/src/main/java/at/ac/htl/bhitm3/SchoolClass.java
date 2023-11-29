@@ -13,15 +13,15 @@ public class SchoolClass {
         return student_list;
     }
 
-    public void setStudents(List<Student> student_list) {
-        this.student_list = student_list;
+    public void addStudent(Student student) {
+        this.student_list.add(student);
     }
 
     public List<Teacher> getTeachers() {
         return teacher_list;
     }
 
-    public void setTeachers(List<Teacher> teacher_list) {
-        this.teacher_list = teacher_list;
+    public void addTeacher(Teacher teacher) {
+        this.teacher_list.add(teacher);
     }
 }

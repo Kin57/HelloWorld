@@ -26,5 +26,23 @@ public class SchoolClassTest {
         assertEquals(0, schoolClass.getTeachers().size());
     }
 
+    // test for setStudents and setTeachers
+
+    @Test
+    public void given_school_class_when_adding_student_then_result_is_added_student() {
+        Student student = new Student("Max", "Mustermann", "01.02.2000", "Welserstraße 1");
+        schoolClass.addStudent(student);
+        assertEquals(1, schoolClass.getStudents().size());
+        assertEquals(student, schoolClass.getStudents().get(0));
+    }
+
+    @Test
+    public void given_school_class_when_adding_teacher_then_result_is_added_teacher() {
+        Teacher teacher = new Teacher();
+        schoolClass.addTeacher(teacher);
+        assertEquals(1, schoolClass.getTeachers().size());
+        assertEquals(teacher, schoolClass.getTeachers().get(0));
+    }
+
 
 }
