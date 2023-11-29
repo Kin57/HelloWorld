@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="at.ac.htl.bhitm3.SchoolClassTest" time="0.004" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="at.ac.htl.bhitm3.SchoolClassTest" time="0.005" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire/surefirebooter2550431494490156989.jar /home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire 2023-11-29T13-34-50_237-jvmRun1 surefire6176142581826556033tmp surefire_010530811392842861773tmp"/>
+    <property name="sun.java.command" value="/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire/surefirebooter8887045109072352325.jar /home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire 2023-11-29T13-41-24_068-jvmRun1 surefire11043592281681294561tmp surefire_01911438900192198052tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/test-classes:/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/classes:/home/it210190/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/it210190/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire/surefirebooter2550431494490156989.jar"/>
+    <property name="surefire.real.class.path" value="/home/it210190/Documents/ITP/github_projects/HelloWorld/my-app/target/surefire/surefirebooter8887045109072352325.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9-Ubuntu-122.04"/>
     <property name="user.name" value="it210190"/>
@@ -52,7 +52,7 @@
   </properties>
   <testcase name="given_school_class_when_adding_student_then_result_is_added_student" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0"/>
   <testcase name="given_school_class_when_adding_teacher_then_result_is_added_teacher" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0"/>
-  <testcase name="given_school_class_when_counting_students_then_result_is_zero" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0.001"/>
+  <testcase name="given_school_class_when_counting_students_then_result_is_zero" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0"/>
   <testcase name="given_school_class_when_counting_teachers_then_result_is_zero" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0"/>
   <testcase name="given_nothing_ensure_school_exists" classname="at.ac.htl.bhitm3.SchoolClassTest" time="0"/>
 </testsuite>

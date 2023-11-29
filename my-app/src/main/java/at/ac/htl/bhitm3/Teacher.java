@@ -3,11 +3,14 @@ package at.ac.htl.bhitm3;
 public class Teacher extends Person{
     public int salary;
     public int matrNumb;
+    private static int matrNumbCounter = 1;
+    private final static int MIN_SALARY = 1000;
 
     public Teacher() {
         super("Franz", "Mayer", "18.09.1977", "Linz 2");
-        this.salary = 1;
-        this.matrNumb = 1;
+        this.salary = MIN_SALARY;
+        matrNumbCounter++;
+        this.matrNumb = matrNumbCounter;
     }
 
     public int getSalary() {
@@ -21,10 +24,4 @@ public class Teacher extends Person{
     public int getMatrNumb() {
         return this.matrNumb;
     }
-
-    public void setMatrNumb(int matrNumb) {
-        this.matrNumb = matrNumb;
-    }
-
-
 }

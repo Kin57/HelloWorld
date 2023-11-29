@@ -44,5 +44,4 @@ public class SchoolClassTest {
         assertEquals(teacher, schoolClass.getTeachers().get(0));
     }
 
-
 }

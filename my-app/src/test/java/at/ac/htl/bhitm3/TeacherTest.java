@@ -29,6 +29,9 @@ public class TeacherTest {
         assertTrue(teacher.getMatrNumb() > 0);
     }
 
-
-    
+    @Test
+    public void given_teacher_when_setting_salary_then_result_is_set_salary() {
+        teacher.setSalary(2000);
+        assertEquals(2000, teacher.getSalary());
+    }    
 }
